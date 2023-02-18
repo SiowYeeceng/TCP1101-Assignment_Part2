@@ -13,12 +13,12 @@ These features may help you to save your game and leave it as the same when you 
 2. load - find your file and come back to the game
 
 Other than that, there are also some figure to make the game easy
-1. arrow - increase attack
-2. p - attack the most nearest zombie
-3. h - add 20 life to alien
+1. arrow - change moving direction and increase attack by 20 each
+2. p - attack the most nearest zombie (10 damage)
+3. h - add 20 life to alien (maximum alien's life is 100)
 4. . - left by alien moves, reset to random object after Alien's turn ends
-5. " " - just an empty space    
-7.  a - alien
+5. " " - just an empty space
+6. A - alien
 Avoid these things, they might be dangerous
 1. B - a bomb touch it will decrease your health by 10
 2. S - Slime, decrease your attack by 10
