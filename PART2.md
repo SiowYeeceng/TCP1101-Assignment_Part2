@@ -16,7 +16,6 @@ List all the features completed.
 4. Board settings
 5. Alien attribute
 
-
 ## Additional Features
 
 1. Bomb - decrease 10 life when touch it

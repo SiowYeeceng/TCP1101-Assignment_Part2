@@ -19,7 +19,6 @@ Other than that, there are also some figure to make the game easy
 4. . - left by alien moves, reset to random object after Alien's turn ends
 5. " " - just an empty space
 7.  a - alien
-
 Avoid these things, they might be dangerous
 1. B - a bomb touch it will decrease your health
 2. S - Smile, decrease your attack
