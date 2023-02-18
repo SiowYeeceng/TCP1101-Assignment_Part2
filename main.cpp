@@ -250,11 +250,16 @@ void help()
     cout << "'z'\t:zombie (your enemy)" << endl;
     cout << "'h'\t:health (add 20 life to alien) " << endl;
     cout << "'p'\t:pod (instanly inflicts 10 damage to zombie when hit by alien) " << endl;
-    cout << "'r'\t:rock (hides a game object, reveals when hit by alien, stop when hit by alien" << endl;
+    cout << "'r'\t:rock (hides a game object, reveals when hit by alien, stop when hit by alien)" << endl;
+    cout << "'^'\t:arrow(change the direction of alien up and increase attack of alien by 10) " << endl;
+    cout << "'v'\t:arrow(change the direction of alien down and increase attack of alien by 10) " << endl;
+    cout << "'<'\t:arrow(change the direction of alien left and increase attack of alien by 10) " << endl;
+    cout << "'>'\t:arrow(change the direction of alien right and increase attack of alien by 10) " << endl;
+    cout << "'B'\t:bomb (instantly get a 10 damge and stop)"    << endl;
+    cout << "'S'\t:slime (decreases the attack of alien by 10)" << endl;
     cout << "' '\t:space (just a empty space)" << endl;
     cout << "'.'\t:trial (left by alien moves, reset to random object after Alien's turn ends) " << endl;
-    cout << "'B'\t:Bomb (Decrease health by 10 and stop down when alien touch it)" << endl;
-    cout << "'S'\t:Slime (Decrease attack by 10 when alien touch it)" << endl;
+    cout << endl;
     cout << "           Command           " << endl;
     cout << "+---------------------------+" << endl;
     cout << "up\t:Alien to move up." << endl;
@@ -934,7 +939,7 @@ void game(int row, int column, int zombie, bool &mainload)
                                             zombiemovedone = true;
                                         }
                                     }
-                                    else if (zombiemove == 1 && zombdata[z][4] < row)
+                                    else if (zombiemove == 1 && zombdata[z][4] < row+1)
                                     {
                                         for (int zt = 0; zt < zombie; zt++)
                                         {
@@ -976,7 +981,7 @@ void game(int row, int column, int zombie, bool &mainload)
                                             zombiemovedone = true;
                                         }
                                     }
-                                    else if (zombiemove == 3 && zombdata[z][4] < column)
+                                    else if (zombiemove == 3 && zombdata[z][4] < column+1)
                                     {
                                         for (int zt = 0; zt < zombie; zt++)
                                         {
