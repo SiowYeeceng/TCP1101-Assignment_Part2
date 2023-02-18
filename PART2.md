@@ -14,7 +14,7 @@ List all the features completed.
 2. Alien movement
 3. Zombie movement
 4. Board settings
-5. Alien attribute
+5. Alien attributes
 
 ## Additional Features
 

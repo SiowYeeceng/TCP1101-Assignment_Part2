@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
+#include <bits/stdc++.h>
 using namespace std;
 
 void displayMenu()
