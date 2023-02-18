@@ -17,11 +17,11 @@ Other than that, there are also some figure to make the game easy
 2. p - attack the most nearest zombie
 3. h - add 20 life to alien
 4. . - left by alien moves, reset to random object after Alien's turn ends
-5. " " - just an empty space
+5. " " - just an empty space    
 7.  a - alien
 Avoid these things, they might be dangerous
-1. B - a bomb touch it will decrease your health
-2. S - Smile, decrease your attack
+1. B - a bomb touch it will decrease your health by 10
+2. S - Slime, decrease your attack by 10
 3. [integers] - the zombies
 ## Compilation Instructions
 

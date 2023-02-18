@@ -253,6 +253,8 @@ void help()
     cout << "'r'\t:rock (hides a game object, reveals when hit by alien, stop when hit by alien" << endl;
     cout << "' '\t:space (just a empty space)" << endl;
     cout << "'.'\t:trial (left by alien moves, reset to random object after Alien's turn ends) " << endl;
+    cout << "'B'\t:Bomb (Decrease health by 10 and stop down when alien touch it)" << endl;
+    cout << "'S'\t:Slime (Decrease attack by 10 when alien touch it)" << endl;
     cout << "           Command           " << endl;
     cout << "+---------------------------+" << endl;
     cout << "up\t:Alien to move up." << endl;
