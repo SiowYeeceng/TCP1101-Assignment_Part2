@@ -1006,7 +1006,7 @@ void game(int row, int column, int zombie, bool &mainload)
                             }
                             else
                             {
-                                cout << "Zombie " << zombienumber << "can't move. " << endl;
+                                cout << "Zombie " << zombienumber << " can't move. " << endl;
                             }
                             system("pause");
                             system("cls");
