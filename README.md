@@ -41,7 +41,7 @@ g++ main.cpp
 ## Progress Log
 
 - [Part 1](PART1.md)
-- [Part 2](PART2.md)
+- [Part 2](https://github.com/SiowYeeceng/TCP1101-Assignment_Part2/blob/0986e5b09651739a020c55eb297595660066dd8b/PART2.md)
 
 ## Contributors
 
