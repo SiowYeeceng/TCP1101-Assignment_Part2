@@ -2,6 +2,7 @@
 #include <fstream>
 #include <cstdlib>
 #include <bits/stdc++.h>
+#include <vector>
 using namespace std;
 
 void displayMenu()

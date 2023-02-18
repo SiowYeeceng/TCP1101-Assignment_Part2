@@ -23,7 +23,7 @@ Avoid these things, they might be dangerous
 1. B - a bomb touch it will decrease your health
 2. S - Smile, decrease your attack
 3. [integers] - the zombies
-## Compilation Instruction
+## Compilation Instructions
 
 Please compile it by using cmd
 

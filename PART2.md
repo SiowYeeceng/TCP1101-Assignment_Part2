@@ -31,7 +31,7 @@ For example:
 
 1. Alien movement
 2. zombie movement
-3. Finalize all the file and source code
+3. Finalize all the file and source codes
 
 ### Chew Ming Yao
 
