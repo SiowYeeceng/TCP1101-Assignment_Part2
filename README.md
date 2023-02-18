@@ -40,7 +40,7 @@ g++ main.cpp
 
 ## Progress Log
 
-- [Part 1](PART1.md)
+- [Part 1](https://github.com/SiowYeeceng/TMA1201-Assignment/blob/6bbfe62fabbda8f84ab63951f771a24797143c94/PART1.md)
 - [Part 2](https://github.com/SiowYeeceng/TCP1101-Assignment_Part2/blob/0986e5b09651739a020c55eb297595660066dd8b/PART2.md)
 
 ## Contributors
