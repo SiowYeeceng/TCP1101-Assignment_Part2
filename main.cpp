@@ -137,7 +137,6 @@ void board(int row, int column, int zombie, char *random, int alife, int aattack
         for (c = 0; c < column; c++)
         {
             cout << "|";
-            // cout << random[r][c];
             char check = *(random + r * 50 + c);
             if (check == 'e')
             {
@@ -300,7 +299,7 @@ void game(int row, int column, int zombie, bool &mainload)
     vector<char> object = {'^', 'v', '<', '>', 'h', 'p', 'r', 'e', 'B', 'S'};
     vector<char> norock = {'^', 'v', '<', '>', 'h', 'p', 'e', 'B', 'S'};
     char random[50][50];
-    int zombdata[4][7]; // life attack range zombieinrange(for pod) row column numberofthingsbesidezombie
+    int zombdata[4][7]; 
     srand(time(NULL));
     int o = object.size();
     int nrock = norock.size();
@@ -343,7 +342,6 @@ void game(int row, int column, int zombie, bool &mainload)
     }
 
     al(alife, aattack);
-    // zombie data
     for (z = 0; z < zombie; z++)
     {
         zlife = ((rand() % 4) * 50 + 100);
@@ -423,7 +421,6 @@ void game(int row, int column, int zombie, bool &mainload)
                     cin >> arrowrow >> arrowcolumn >> direction;
                     string cintocontinue;
                     cin >> cintocontinue;
-                    // cout << arrowrow << arrowcolumn << direction;
                     if (random[arrowrow - 1][arrowcolumn - 1] == '^' || random[arrowrow - 1][arrowcolumn - 1] == 'v' || random[arrowrow - 1][arrowcolumn - 1] == '<' || random[arrowrow - 1][arrowcolumn - 1] == '>')
                     {
                         switch (direction)
@@ -581,7 +578,6 @@ void game(int row, int column, int zombie, bool &mainload)
                 {
                     switch (com)
                     {
-                    // get going palce
                     case '^':
                         gr = ar - 1;
                         gc = ac;
@@ -603,9 +599,6 @@ void game(int row, int column, int zombie, bool &mainload)
                         going = random[gr][gc];
                         break;
                     }
-                    // done
-
-                    // check going place
                     char nextcom;
                     string alienstatus, zombielifedamage, zombiestatus;
 
@@ -700,7 +693,7 @@ void game(int row, int column, int zombie, bool &mainload)
                                     {
                                         zombdata[rannum][0] = zombdata[rannum][0] - 10;
                                         cout << "Zombie " << zombpod << " receive 10 damage" << endl;
-                                        if (zombdata[rannum][0] <= 0) // not yet receive damage
+                                        if (zombdata[rannum][0] <= 0) 
                                         {
                                             zombdata[z][0] = 0;
                                             cout << "Zombie " << zombpod << " is dead\n";
@@ -795,7 +788,6 @@ void game(int row, int column, int zombie, bool &mainload)
                     {
                         break;
                     }
-                    //
                     for (z = 0; z < zombie; z++)
                     {
                         char go = (z + 49);
@@ -891,7 +883,6 @@ void game(int row, int column, int zombie, bool &mainload)
                 bool zombieturndone = false;
                 while (!zombieturndone)
                 {
-                    // add zombie move
                     int zr, zc;
                     char zombienextplace;
                     string zombiegoing;
